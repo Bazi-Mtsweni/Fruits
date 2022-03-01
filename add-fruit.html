@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit List - Add Fruit</title>
+    <link rel="stylesheet" href="./add-fruit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="" class="active">Add Fruit</a>
+                <a href="./index.html">View All</a>
+            </div>
+        </nav>
+    </header>
+    <section class="contain">
+        <h1>Submit Fruit</h1>
+        <div class="add">
+            <label for="add-fruits">Fruit Name :</label>
+            <input type="text" name="add-fruit" id="add-fruits" placeholder="Enter Fruit Name...">
+            <label for="add-emojis">Add Emoji :</label>
+            <input type="text" name="add-emoji" id="add-emojis" placeholder="Enter Emoji...">  
+        </div>
+        <button type="submit" class="submitBtn">Submit</button>
+
+        <div class="error success">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Fruit successfully added</p>
+        </div>
+        <div class="error fail">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <p>Attempt to add fruit failed. Please try again</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Developed by Kgotso Matuludi</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./add-fruit.js"></script>
+</body>
+</html>
